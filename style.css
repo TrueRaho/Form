@@ -79,10 +79,8 @@ h2 {
 .checkbox-4 {
 	grid-area: checkbox-4;
 }
-.submit {
+.submit-btn {
 	grid-area: submit;
-}
-.submit-btm {
 	width: 200px;
 	height: 30px;
 	background-color: #eeeeff;
