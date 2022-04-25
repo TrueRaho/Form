@@ -1,8 +1,6 @@
 body {
 	font-family: Verdana, sans-serif;
 	color: #a6a6d8;
-	width: 1040px;
-	height: 630px;
 }
 
 .container {
@@ -23,4 +21,38 @@ h2 {
 	padding: 15px;
 	display: grid;
 	grid-template-columns: 284px 301px 301px;
+	gap: 15px;
+}
+.photo {
+	grid-area: photo;
+}
+.name {
+	grid-area: name;
+}
+.breed {
+	grid-area: breed;
+}
+.place {
+	grid-area: place;
+}
+.about {
+	grid-area: about;
+}
+.food {
+	grid-area: food;
+}
+.checkbox-1 {
+	grid-area: checkbox-1;
+}
+.checkbox-2 {
+	grid-area: checkbox-2;
+}
+.checkbox-3 {
+	grid-area: checkbox-3;
+}
+.checkbox-4 {
+	grid-area: checkbox-4;
+}
+.submit {
+	grid-area: submit;
 }
