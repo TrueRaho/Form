@@ -81,6 +81,8 @@ h2 {
 }
 .submit {
 	grid-area: submit;
+}
+.submit-btm {
 	width: 200px;
 	height: 30px;
 	background-color: #eeeeff;
