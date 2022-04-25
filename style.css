@@ -20,7 +20,7 @@ h2 {
 .profile-form {
 	padding: 15px;
 	display: grid;
-	grid-template-columns: 284px 150px 150px 150px 150px;
+	grid-template-columns: 284px 150.5px 150.5px 150.5px 150.5px;
 	grid-template-areas:
 		"photo name name name name"
 		"photo breed breed place place"
@@ -44,6 +44,7 @@ h2 {
 	height: 40px;
 	border: 1px solid #858585;
 	box-sizing: border-box;
+	font-size: 22px;
 }
 #name {
 	width: 633px;
@@ -60,6 +61,7 @@ h2 {
 #about {
 	width: 633px;
 	height: 82px;
+	font-size: 20px;
 }
 .about {
 	grid-area: about;
