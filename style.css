@@ -20,11 +20,33 @@ h2 {
 .profile-form {
 	padding: 15px;
 	display: grid;
-	grid-template-columns: 284px 301px 301px;
+	grid-template-columns: 284px 150px 150px 150px 150px;
+	grid-template-areas:
+		"photo name name name name"
+		"photo breed breed place place"
+		"photo about about about about"
+		"photo food food food food"
+		"photo checkbox-1 checkbox-2 checkbox-3 checkbox-4"
+		"photo submit submit submit submit";
 	gap: 15px;
 }
 .photo {
 	grid-area: photo;
+	background: #eeeeff;
+	border: 1px solid #a9a9a9;
+	box-sizing: border-box;
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 173px;
+}
+.input {
+	width: 301px;
+	height: 40px;
+	border: 1px solid #858585;
+	box-sizing: border-box;
+}
+#name {
+	width: 633px;
 }
 .name {
 	grid-area: name;
@@ -34,6 +56,10 @@ h2 {
 }
 .place {
 	grid-area: place;
+}
+#about {
+	width: 633px;
+	height: 82px;
 }
 .about {
 	grid-area: about;
@@ -55,4 +81,12 @@ h2 {
 }
 .submit {
 	grid-area: submit;
+	width: 200px;
+	height: 30px;
+	background-color: #eeeeff;
+	border: 1px solid #a6a6d8;
+	box-sizing: border-box;
+	border-radius: 10px;
+	color: #545454;
+	padding: auto auto;
 }
