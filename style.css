@@ -1,0 +1,26 @@
+body {
+	font-family: Verdana, sans-serif;
+	color: #a6a6d8;
+	width: 1040px;
+	height: 630px;
+}
+
+.container {
+	width: 1040px;
+	margin: 0 auto;
+}
+
+h2 {
+	color: #545454;
+	text-align: center;
+}
+
+.profile {
+	width: 950px;
+}
+
+.profile-form {
+	padding: 15px;
+	display: grid;
+	grid-template-columns: 284px 301px 301px;
+}
